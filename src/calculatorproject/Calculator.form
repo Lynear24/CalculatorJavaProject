@@ -25,63 +25,69 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Butt33" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt35" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt22" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt29" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt30" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Butt26" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt27" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt28" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt24" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt25" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Butt31" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt32" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt34" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt21" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt23" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Butt18" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt19" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt20" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt16" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt17" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Butt13" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt14" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt15" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt11" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt12" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="PosNev" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt9" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Butt10" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="Butt7" alignment="1" max="32767" attributes="0"/>
-                      <Component id="Butt8" alignment="1" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="Sqrt" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="Modulo" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="Butt5" alignment="1" max="32767" attributes="0"/>
-                      <Component id="MultInv" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="sin" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="cos" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="tan" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Ln" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Square" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Log" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Factorial" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="SquareRoot" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="CubeRoot" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Power10th" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="BS" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Seven" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Four" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="One" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Zero" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="ClearEverything" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Eight" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Five" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Two" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Hundred" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Clear" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Nine" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Six" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Three" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="DecPoint" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="PosNeg" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Minus" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Plus" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Div" alignment="1" max="32767" attributes="0"/>
+                              <Component id="Mult" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Sqrt" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Modulo" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Equals" alignment="1" max="32767" attributes="0"/>
+                              <Component id="MultInv" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
+                  <Component id="CalcText" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -90,9 +96,11 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="247" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="CalcText" pref="225" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="Butt18" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="ClearEverything" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="Sqrt" min="-2" pref="35" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -100,86 +108,83 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="MultInv" min="-2" pref="35" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Butt5" min="-2" pref="81" max="-2" attributes="0"/>
+                      <Component id="Equals" min="-2" pref="81" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="Butt13" min="-2" pref="35" max="-2" attributes="0"/>
-                              <EmptySpace min="164" pref="164" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="Clear" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
-                              <Component id="Butt14" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="Nine" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Butt15" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="Six" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Butt11" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="Three" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Butt12" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="DecPoint" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" attributes="0">
-                          <Component id="PosNev" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="PosNeg" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt7" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Div" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt8" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Mult" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt9" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Minus" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt10" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Plus" min="-2" pref="35" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Butt33" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="sin" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
-                              <Component id="Butt35" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="cos" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Butt22" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="tan" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Butt29" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="Ln" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Butt30" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="Square" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                               <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Component id="Butt26" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="Log" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
-                                      <Component id="Butt27" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="Factorial" min="-2" pref="35" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Butt28" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="SquareRoot" min="-2" pref="35" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Butt24" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="CubeRoot" min="-2" pref="35" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Butt25" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="Power10th" min="-2" pref="35" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="Butt31" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="BS" min="-2" pref="35" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Butt32" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="Seven" min="-2" pref="35" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Butt34" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="Four" min="-2" pref="35" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Butt21" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="One" min="-2" pref="35" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="Butt23" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="Zero" min="-2" pref="35" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
-                          <Component id="Butt19" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Eight" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt20" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Five" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt16" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Two" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Butt17" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="Hundred" min="-2" pref="35" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -193,170 +198,240 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Sqrt"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SqrtActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Modulo">
       <Properties>
         <Property name="text" type="java.lang.String" value="Mod"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ModuloActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="MultInv">
       <Properties>
         <Property name="text" type="java.lang.String" value="1/x"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt5">
+    <Component class="javax.swing.JButton" name="Equals">
       <Properties>
         <Property name="text" type="java.lang.String" value="="/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EqualsActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="PosNev">
+    <Component class="javax.swing.JButton" name="PosNeg">
       <Properties>
         <Property name="text" type="java.lang.String" value="+-"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PosNegActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt7">
+    <Component class="javax.swing.JButton" name="Div">
       <Properties>
         <Property name="text" type="java.lang.String" value="/"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DivActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt8">
+    <Component class="javax.swing.JButton" name="Mult">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MultActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Minus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MinusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Plus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Three">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ThreeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="DecPoint">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DecPointActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Clear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Nine">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NineActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Six">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SixActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Two">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TwoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Hundred">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HundredActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ClearEverything">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Eight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EightActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Five">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FiveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="One">
       <Properties>
         <Property name="text" type="java.lang.String" value="1"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OneActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt9">
+    <Component class="javax.swing.JButton" name="tan">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="tan"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt10">
+    <Component class="javax.swing.JButton" name="Zero">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ZeroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="CubeRoot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xb3;&#x221a;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt11">
+    <Component class="javax.swing.JButton" name="Power10th">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="10^x"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt12">
+    <Component class="javax.swing.JButton" name="Log">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="log"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt13">
+    <Component class="javax.swing.JButton" name="Factorial">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="n!"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt14">
+    <Component class="javax.swing.JButton" name="SquareRoot">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="&#x221a;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt15">
+    <Component class="javax.swing.JButton" name="Ln">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="ln"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt16">
+    <Component class="javax.swing.JButton" name="Square">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="x&#xb2;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt17">
+    <Component class="javax.swing.JButton" name="BS">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="&#x2190;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt18">
+    <Component class="javax.swing.JButton" name="Seven">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SevenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="sin"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt19">
+    <Component class="javax.swing.JButton" name="Four">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FourActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="cos"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Butt20">
+    <Component class="javax.swing.JTextField" name="CalcText">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt21">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt22">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt23">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt24">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt25">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt26">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt27">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt28">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt29">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt30">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt31">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt32">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt33">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt34">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="Butt35">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="11"/>
+        <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
     </Component>
   </SubComponents>
