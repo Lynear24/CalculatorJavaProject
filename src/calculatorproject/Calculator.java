@@ -402,10 +402,13 @@ public class Calculator extends javax.swing.JFrame {
 
     private void SqrtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SqrtActionPerformed
         // TODO add your handling code here:
+        CalcText.setText(Math.sqrt(Double.parseDouble(CalcText.getText())) + "");
     }//GEN-LAST:event_SqrtActionPerformed
 
     private void ModuloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ModuloActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling code here:        
+        operator = '%';
+        CalcText.setText("0"); 
     }//GEN-LAST:event_ModuloActionPerformed
 
     private void HundredActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HundredActionPerformed
@@ -491,16 +494,6 @@ public class Calculator extends javax.swing.JFrame {
 
     private void PlusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlusActionPerformed
         // TODO add your handling code here:
-        // if there was another operator before adding
-        if (!(operator == ' '))
-        {
-            val2 = Double.parseDouble(CalcText.getText());
-            val1 = SwitchOperator();
-        }
-            
-        else 
-            val1 = Double.parseDouble(CalcText.getText());
-        
         operator = '+';
         CalcText.setText("0");       
     }//GEN-LAST:event_PlusActionPerformed
@@ -511,57 +504,26 @@ public class Calculator extends javax.swing.JFrame {
             return;
         
         val2 = Double.parseDouble(CalcText.getText());
-        
-        CalcText.setText(SwitchOperator() + "");
-        
+        //CalcText.setText(SwitchOperator() + "");
+        SwitchOperator();
         // resets the operator
         operator = ' ';
     }//GEN-LAST:event_EqualsActionPerformed
 
     private void MinusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MinusActionPerformed
         // TODO add your handling code here:
-        //if there was another operator before adding
-        if (!(operator == ' '))
-        {
-            val2 = Double.parseDouble(CalcText.getText());
-            val1 = SwitchOperator();
-        }
-            
-        else 
-            val1 = Double.parseDouble(CalcText.getText());
-        
         operator = '-';
-        CalcText.setText("0"); 
+        
     }//GEN-LAST:event_MinusActionPerformed
 
     private void MultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MultActionPerformed
         // TODO add your handling code here:
-        // if there was another operator before adding
-        if (!(operator == ' '))
-        {
-            val2 = Double.parseDouble(CalcText.getText());
-            val1 = SwitchOperator();
-        }
-            
-        else 
-            val1 = Double.parseDouble(CalcText.getText());
-        
         operator = '*';
         CalcText.setText("0"); 
     }//GEN-LAST:event_MultActionPerformed
 
     private void DivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DivActionPerformed
         // TODO add your handling code here:
-        // if there was another operator before adding
-        if (!(operator == ' '))
-        {
-            val2 = Double.parseDouble(CalcText.getText());
-            val1 = SwitchOperator();
-        }
-            
-        else 
-            val1 = Double.parseDouble(CalcText.getText());
-        
         operator = '/';
         CalcText.setText("0"); 
     }//GEN-LAST:event_DivActionPerformed
@@ -575,34 +537,58 @@ public class Calculator extends javax.swing.JFrame {
             CalcText.setText(CalcText.getText().substring(1));
     }//GEN-LAST:event_PosNegActionPerformed
 
-    private double SwitchOperator()
+    /*
+        if (!(operator == ' '))
+        {
+            val2 = Double.parseDouble(CalcText.getText());
+            val1 = SwitchOperator();
+        }
+            
+        else 
+            val1 = Double.parseDouble(CalcText.getText());
+    
+    
+    
+    */
+    
+    private void SwitchOperator()
     {
         double temp = 0;
         
-        switch(operator)
+        if (!(operator == ' '))
         {
-            case '+':
-                temp = val1 + val2;
-                break;
-                
-            case '-':
-                temp = val1 - val2;
-                break;
-                
-            case '%':
-                temp = val1 % val2;
-                break;
-                
-            case '*':
-                temp = val1 * val2;
-                break;
-                
-            case '/':
-                temp = val1 / val2;
-                break;
+            val2 = Double.parseDouble(CalcText.getText());
+            switch(operator)
+            {
+                case '+':
+                    temp = val1 + val2;
+                    break;
+
+                case '-':
+                    temp = val1 - val2;
+                    break;
+
+                case '%':
+                    temp = val1 % val2;
+                    break;
+
+                case '*':
+                    temp = val1 * val2;
+                    break;
+
+                case '/':
+                    temp = val1 / val2;
+                    break;
+            }
+            
+            
         }
         
-        return temp;
+        else 
+            val1 = Double.parseDouble(CalcText.getText());
+        
+        
+    CalcText.setText("0"); 
     }
     
     /**
