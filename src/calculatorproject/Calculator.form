@@ -24,39 +24,43 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="sin" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="cos" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="tan" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Ln" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Square" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="CalcText" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cos" alignment="1" max="32767" attributes="0"/>
+                          <Component id="tan" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Ln" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Square" max="32767" attributes="0"/>
+                          <Component id="sin" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="Log" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Factorial" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="SquareRoot" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="CubeRoot" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Power10th" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="Power10th" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Log" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Pow" alignment="1" max="32767" attributes="0"/>
+                          <Component id="SquareRoot" alignment="1" max="32767" attributes="0"/>
+                          <Component id="CubeRoot" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="BS" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Seven" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Four" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="One" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Zero" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="BS" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Seven" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Four" alignment="1" max="32767" attributes="0"/>
+                          <Component id="One" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Zero" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="ClearEverything" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Eight" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Five" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Two" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Hundred" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="ClearEverything" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Hundred" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Two" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Five" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Eight" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -68,26 +72,20 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="PosNeg" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Minus" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Plus" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="Div" alignment="1" max="32767" attributes="0"/>
-                              <Component id="Mult" alignment="1" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="PosNeg" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Div" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Mult" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Plus" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Minus" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Sqrt" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="Modulo" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="Equals" alignment="1" max="32767" attributes="0"/>
-                              <Component id="MultInv" alignment="1" max="32767" attributes="0"/>
-                          </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Sqrt" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Modulo" alignment="1" max="32767" attributes="0"/>
+                          <Component id="MultInv" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Equals" alignment="1" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="CalcText" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -99,7 +97,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="CalcText" pref="225" max="32767" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="ClearEverything" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="Sqrt" min="-2" pref="35" max="-2" attributes="0"/>
@@ -108,7 +106,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="MultInv" min="-2" pref="35" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Equals" min="-2" pref="81" max="-2" attributes="0"/>
+                      <Component id="Equals" max="32767" attributes="0"/>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -119,7 +117,10 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Six" min="-2" pref="35" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="Three" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Three" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="Two" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                              </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="DecPoint" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
@@ -138,7 +139,6 @@
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="sin" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
                               <Component id="cos" min="-2" pref="35" max="-2" attributes="0"/>
@@ -150,18 +150,15 @@
                               <Component id="Square" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Component id="Log" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
-                                      <Component id="Factorial" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="SquareRoot" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="CubeRoot" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="Power10th" min="-2" pref="35" max="-2" attributes="0"/>
-                                  </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
+                                  <Component id="Pow" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="SquareRoot" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="CubeRoot" min="-2" pref="35" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Power10th" min="-2" pref="35" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="BS" min="-2" pref="35" max="-2" attributes="0"/>
@@ -181,14 +178,14 @@
                           <Component id="Eight" min="-2" pref="35" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="Five" min="-2" pref="35" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="Two" min="-2" pref="35" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                           <Component id="Hundred" min="-2" pref="35" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <Component id="sin" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="Log" alignment="0" min="-2" pref="35" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -214,6 +211,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="1/x"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MultInvActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Equals">
       <Properties>
@@ -283,6 +283,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="C"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClearActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Nine">
       <Properties>
@@ -320,6 +323,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="CE"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClearEverythingActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Eight">
       <Properties>
@@ -349,6 +355,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="tan"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tanActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Zero">
       <Properties>
@@ -362,21 +371,33 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xb3;&#x221a;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CubeRootActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Power10th">
       <Properties>
         <Property name="text" type="java.lang.String" value="10^x"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Power10thActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Log">
       <Properties>
         <Property name="text" type="java.lang.String" value="log"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LogActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Factorial">
+    <Component class="javax.swing.JButton" name="Pow">
       <Properties>
-        <Property name="text" type="java.lang.String" value="n!"/>
+        <Property name="text" type="java.lang.String" value="^"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PowActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="SquareRoot">
       <Properties>
@@ -387,16 +408,25 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="ln"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LnActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Square">
       <Properties>
         <Property name="text" type="java.lang.String" value="x&#xb2;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SquareActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="BS">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x2190;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BSActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Seven">
       <Properties>
@@ -410,6 +440,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="sin"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sinActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Four">
       <Properties>
@@ -423,6 +456,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="cos"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cosActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="CalcText">
       <Properties>
