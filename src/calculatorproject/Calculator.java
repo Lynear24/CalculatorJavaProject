@@ -494,8 +494,8 @@ public class Calculator extends javax.swing.JFrame {
 
     private void PlusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlusActionPerformed
         // TODO add your handling code here:
+        SwitchOperator();
         operator = '+';
-        CalcText.setText("0");       
     }//GEN-LAST:event_PlusActionPerformed
 
     private void EqualsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EqualsActionPerformed
@@ -508,24 +508,26 @@ public class Calculator extends javax.swing.JFrame {
         SwitchOperator();
         // resets the operator
         operator = ' ';
+        
+        CalcText.setText(val1 + "");
     }//GEN-LAST:event_EqualsActionPerformed
 
     private void MinusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MinusActionPerformed
         // TODO add your handling code here:
-        operator = '-';
-        
+        SwitchOperator();
+        operator = '-';      
     }//GEN-LAST:event_MinusActionPerformed
 
     private void MultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MultActionPerformed
         // TODO add your handling code here:
+        SwitchOperator();
         operator = '*';
-        CalcText.setText("0"); 
     }//GEN-LAST:event_MultActionPerformed
 
     private void DivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DivActionPerformed
         // TODO add your handling code here:
+        SwitchOperator();
         operator = '/';
-        CalcText.setText("0"); 
     }//GEN-LAST:event_DivActionPerformed
 
     private void PosNegActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PosNegActionPerformed
@@ -555,7 +557,7 @@ public class Calculator extends javax.swing.JFrame {
     {
         double temp = 0;
         
-        if (!(operator == ' '))
+        if ((operator != ' '))
         {
             val2 = Double.parseDouble(CalcText.getText());
             switch(operator)
@@ -581,7 +583,7 @@ public class Calculator extends javax.swing.JFrame {
                     break;
             }
             
-            
+            val1 = temp;
         }
         
         else 
