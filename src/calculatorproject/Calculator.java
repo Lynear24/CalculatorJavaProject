@@ -719,7 +719,7 @@ public class Calculator extends javax.swing.JFrame {
                     break;
                     
                 case '^':
-                    temp = Math.pow(val1, val2)
+                    temp = Math.pow(val1, val2);
                     break;
             }
             

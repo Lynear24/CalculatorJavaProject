@@ -151,7 +151,6 @@
                           </Group>
                           <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
                                   <Component id="Pow" min="-2" pref="35" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="SquareRoot" min="-2" pref="35" max="-2" attributes="0"/>
