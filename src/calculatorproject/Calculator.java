@@ -248,6 +248,11 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         SquareRoot.setText("√");
+        SquareRoot.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SquareRootActionPerformed(evt);
+            }
+        });
 
         Ln.setText("ln");
         Ln.addActionListener(new java.awt.event.ActionListener() {
@@ -416,7 +421,6 @@ public class Calculator extends javax.swing.JFrame {
                                 .addComponent(Square, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(layout.createSequentialGroup()
-                                    .addGap(41, 41, 41)
                                     .addComponent(Pow, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(SquareRoot, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -674,6 +678,11 @@ public class Calculator extends javax.swing.JFrame {
         // TODO add your handling code here:
         CalcText.setText((Double.parseDouble(CalcText.getText()) * Double.parseDouble(CalcText.getText())) + "");
     }//GEN-LAST:event_SquareActionPerformed
+
+    private void SquareRootActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SquareRootActionPerformed
+        // TODO add your handling code here:
+        CalcText.setText(Math.sqrt(Double.parseDouble(CalcText.getText())) + "");
+    }//GEN-LAST:event_SquareRootActionPerformed
 
     /*
         if (!(operator == ' '))

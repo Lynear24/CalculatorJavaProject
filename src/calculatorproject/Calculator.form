@@ -402,6 +402,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x221a;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SquareRootActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Ln">
       <Properties>
