@@ -62,6 +62,7 @@ public class Calculator extends javax.swing.JFrame {
         Four = new javax.swing.JButton();
         cos = new javax.swing.JButton();
         CalcText = new javax.swing.JTextField();
+        ToggleDeg = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -308,17 +309,20 @@ public class Calculator extends javax.swing.JFrame {
         CalcText.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
         CalcText.setText("0");
 
+        ToggleDeg.setText("Degrees");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(10, 10, 10)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
+                        .addComponent(ToggleDeg)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(CalcText))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(cos, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(tan, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -372,7 +376,11 @@ public class Calculator extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(CalcText, javax.swing.GroupLayout.DEFAULT_SIZE, 225, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(CalcText, javax.swing.GroupLayout.DEFAULT_SIZE, 225, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(ToggleDeg)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(ClearEverything, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -656,17 +664,17 @@ public class Calculator extends javax.swing.JFrame {
 
     private void sinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sinActionPerformed
         // TODO add your handling code here:
-        CalcText.setText(Math.sin(Double.parseDouble(CalcText.getText())) + "");
+        CalcText.setText(Math.sin(Double.parseDouble(CalcText.getText()) * (ToggleDeg.isSelected() ? Math.PI / 180 : 1)) + "");
     }//GEN-LAST:event_sinActionPerformed
 
     private void cosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cosActionPerformed
         // TODO add your handling code here:
-        CalcText.setText(Math.cos(Double.parseDouble(CalcText.getText())) + "");
+        CalcText.setText(Math.cos(Double.parseDouble(CalcText.getText()) * (ToggleDeg.isSelected() ? Math.PI / 180 : 1)) + "");
     }//GEN-LAST:event_cosActionPerformed
 
     private void tanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tanActionPerformed
         // TODO add your handling code here:
-        CalcText.setText(Math.tan(Double.parseDouble(CalcText.getText())) + "");
+        CalcText.setText(Math.tan(Double.parseDouble(CalcText.getText()) * (ToggleDeg.isSelected() ? Math.PI / 180 : 1)) + "");
     }//GEN-LAST:event_tanActionPerformed
 
     private void LnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LnActionPerformed
@@ -820,6 +828,7 @@ public class Calculator extends javax.swing.JFrame {
     private javax.swing.JButton Square;
     private javax.swing.JButton SquareRoot;
     private javax.swing.JButton Three;
+    private javax.swing.JCheckBox ToggleDeg;
     private javax.swing.JButton Two;
     private javax.swing.JButton Zero;
     private javax.swing.JButton cos;
