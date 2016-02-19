@@ -469,9 +469,9 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_SqrtActionPerformed
 
     private void ModuloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ModuloActionPerformed
-        // TODO add your handling code here:        
+        // TODO add your handling code here: 
+        SwitchOperator();
         operator = '%';
-        CalcText.setText("0"); 
     }//GEN-LAST:event_ModuloActionPerformed
 
     private void HundredActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HundredActionPerformed
@@ -707,7 +707,7 @@ public class Calculator extends javax.swing.JFrame {
                     break;
 
                 case '%':
-                    temp = val1 % val2;
+                    temp = fmod(val1, val2);
                     break;
 
                 case '*':
@@ -731,6 +731,15 @@ public class Calculator extends javax.swing.JFrame {
         
         
     CalcText.setText("0"); 
+    }
+    
+    private double fmod(double num, double denum)
+    {
+        // find the nearest multiple of denum to num
+        if (denum == 0.f)
+            return num;
+        
+        return num - (int)(num / denum) * denum;
     }
     
     /**
